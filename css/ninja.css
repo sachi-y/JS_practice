@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.list {
+  width: 1000px;
+  margin: 300px auto 0 auto;
+  overflow: hidden;
+}
+
+.list li {
+  padding: 20px;
+  background-color: #0c4dd5;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.list2 {
+  margin: 0 auto 0 auto;
+  display: flex;
+  list-style: none;
+}
+
+.list2 li {
+  height: 100px;
+  width: 100px;
+  background-color: #1d4177;
+  margin-right: 10px;
+}
+
+.p.is-active {
+  color: red;
+}
+
+.p2.is-active {
+  color: red;
+}
+
+.p2.blue.is-active {
+  color: blue;
+}
+
+.p3.is-active {
+  color: red;
+}/*# sourceMappingURL=ninja.css.map */
